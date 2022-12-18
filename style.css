@@ -8,7 +8,6 @@ body{
     background-color: #333;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 /* menu */
 #menu_div{
     width: 100%;
@@ -26,4 +25,82 @@ body{
     border-radius: 5px;
     background-color: rgb(70, 162, 204);
     border: 2px solid #000;
+}
+/* form */
+
+#form_main{
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+    margin:20px auto;
+    display:flex;
+    flex-wrap: wrap;
+}
+.row{
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.row label{
+    float: left;
+    color: #fff;
+}
+
+.row input{
+    float: right;
+    font-size: 22px;
+    width: 50%;
+    max-width: 250px;
+    outline: 0;
+    border: 0;
+    border-radius: 5px;
+}
+
+form button{
+    margin: 0 auto;
+    padding: 5px 10px;
+    background-color: rgb(70, 162, 204);
+    border: none;
+    font-size:16px;
+    border-radius: 5px;
+}
+
+/* Display info section */
+.info_div{
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    gap: 5px;
+    justify-content: center;
+}
+
+.card_div{
+    width: 100%;
+    max-width: 261px;
+    height: 400px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(70, 162, 204);
+}
+
+.info_row{
+    width: 100%;
+    height: 50px;
+    margin: 20px 0 0 0;
+}
+
+.info_row p{
+    font-size: 2em;
+    display: inline-block;
+}
+
+.info_row p:nth-child(1){
+    float: left;
+}
+
+.info_row p:nth-child(2){
+    float: right;
 }
